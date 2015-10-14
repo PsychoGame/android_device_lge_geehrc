@@ -19,7 +19,6 @@ include device/lge/gee-common/BoardConfigCommon.mk
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=geehrc lpj=67677 user_debug=31 androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := cyanogenmod_e975_defconfig
 
-TARGET_BOOTLOADER_BOARD_NAME := GEEHRC
 TARGET_BOOTLOADER_NAME=e975
 
 -include vendor/lge/geehrc/BoardConfigVendor.mk

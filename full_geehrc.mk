@@ -32,10 +32,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_NAME := full_geehrc
 PRODUCT_DEVICE := geehrc
-PRODUCT_BRAND := LGE
+PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-E975
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_RESTRICT_VENDOR_FILES := true
+PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/gee-common/device.mk)

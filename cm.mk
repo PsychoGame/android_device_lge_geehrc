@@ -14,7 +14,7 @@ $(call inherit-product, device/lge/geehrc/full_geehrc.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := geehrc
 PRODUCT_NAME := cm_geehrc
-PRODUCT_BRAND := LGE
+PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-E975
 PRODUCT_MANUFACTURER := LGE
 
